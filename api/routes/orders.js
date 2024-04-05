@@ -1,8 +1,8 @@
 const express = require('express');
-const router = express.Router(); //see https://stackoverflow.com/questions/28305120/differences-between-express-router-and-app-get
+const router = express.Router();
 const checkAuth = require('../middleware/check-auth');
 
-const OrdersController = require('../controllers/orders'); /*allows the specific functions to be accessed by importing controllers/orders.js*/
+const OrdersController = require('../controllers/orders'); 
 
 /**
  * @swagger
