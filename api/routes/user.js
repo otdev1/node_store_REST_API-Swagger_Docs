@@ -1,9 +1,8 @@
 const express = require('express');
-const router = express.Router(); //see https://stackoverflow.com/questions/28305120/differences-between-express-router-and-app-get
+const router = express.Router(); 
 const mongoose = require('mongoose');
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-
 
 const User = require("../models/userModel");
 
@@ -95,7 +94,6 @@ const checkAuth = require('../middleware/check-auth');
  *       500:
  *         description: Some server error
  */
-
 router.post("/signup", UserController.user_signup);
 
 /**
