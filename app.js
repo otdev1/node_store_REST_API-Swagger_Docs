@@ -44,7 +44,7 @@ const options = {
 		},
 		servers: [
 			{
-			    //url: "PLACE SERVER URL HERE"
+			    url: "https://store-api-swagger-doc.onrender.com",
 			},
 		],
 	},
